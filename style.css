@@ -1,0 +1,111 @@
+html,body{
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: black;
+  color:white;
+  font-family: "Oswald";
+}
+
+.centeredtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    border: 5px white solid;
+    font-family:monospace;
+    padding:10px;
+    font-size: 3em;
+}
+
+.logo{
+  margin:0 auto;
+  margin-right: 1em;
+  margin-top: .5em;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-nav > li{
+  padding-left:70px;
+  padding-right:70px;
+}
+
+.shop{
+  background-color: black;
+  color:white;
+}
+
+.navbar .li:hover{
+  background-color: white;
+  color:black;
+}
+
+.cshop{
+     height: auto;
+     float: left;
+     padding: 0;
+     position: relative;
+     background-color: black;
+}
+
+.cshop:hover img {
+      opacity: 0.3;
+    }
+
+    .cshop:hover .work-text-content {
+      opacity: 1;
+    }
+
+    .cshop img {
+      padding: 0;
+      width: 100%;
+      display: block;
+      opacity: 1;
+    }
+
+    .cshop img,
+    .work-text-content {
+      -webkit-transition: opacity 0.5s ease-out;
+      -moz-transition: opacity 0.5s ease-out;
+      -o-transition: opacity 0.5s ease-out;
+      transition: opacity 0.5s ease-out;
+    }
+
+    .work-text-content {
+      position: absolute;
+      color: white;
+      left: 0;
+      top: 25%;
+      right: 0;
+      bottom: 0;
+      font-size: 24px;
+      text-align: center;
+      opacity: 0;
+    }
+li{
+  list-style: none;
+}
+
+.para{
+  text-align: justify;
+  text-indent: 5em;
+}
+
+h1,h2{
+  font-family: "Do Hyeon";
+}
+
+.alt{
+  background-color: black;
+  color: white;
+}
+
+.alt1{
+  background-color: white;
+  color:black;
+}
